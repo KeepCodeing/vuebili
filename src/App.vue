@@ -6,20 +6,33 @@
       <el-header height="90px">
         <NavHeader />
       </el-header>
-      <el-main>
-        111
-      </el-main>
+    <!--   轮播图及视频列表组件   -->
+      <el-container>
+
+        <el-header style="height: auto;">
+          <Carousel />
+        </el-header>
+
+    <!--    视频列表组件    -->
+        <el-main>
+          <Videos />
+        </el-main>
+      </el-container>
     </el-container>
   </div>
 </template>
 
 <script>
   import NavHeader from "./components/common/NavHeader";
+  import Carousel from "./components/common/Carousel";
+  import Videos from "./components/content/Videos";
   export default {
     name: 'app',
     components: {
       NavHeader,
-    }
+      Carousel,
+      Videos,
+    },
   }
 </script>
 

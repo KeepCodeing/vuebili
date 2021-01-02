@@ -1,0 +1,7 @@
+{
+  "data": [
+    {"url": "./images/background1.jpg", "name":  "AZS", "id":  10},
+    {"url": "./images/background2.jpg", "name":  "ALC", "id":  11},
+    {"url": "./images/background3.jpg", "name":  "UDK", "id":  12}
+  ]
+}
